@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/20250108_105715.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>HELLO,THERE...</p>
+          <h1> I'm <span>Jay</span> <br /> 
+            Sawwalakhe.</h1>
+            <h5>-Front-End Developer</h5>
+        </div>
+        
+      </div>
+      <a href="#about" class="me-btn">MORE ABOUT ME <i class="fa-solid fa-angle-down"></i> </a>
+    </div>
+    <!-- ------------about----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/jaysprofile.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+
+            <p>
+              <br>I am absolutely focused on pursuing <br> a BE engineering degree in EXTC. <br> I am deeply committed to mastering <br> web development, data structures, and algorithm. <br> I have no doubt that these skills will be pivotal <br> in shaping my future success.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab "id="skills">
+              <ul>
+                <li><span> Web Development</span><br>Frontend / Backend</li>
+                <li><span> Languages</span><br>HTML, CSS, Javascript ,C++</li>
+                <li><span>DSA </span><br>Data structure and Algorithm</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>Experience </span><br>NO Experience</li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>Bachehelor Of Engineering (ETC) <br>Nov 2022 - July 2026 <br></span><br>I am an Undergraduate from PRMCEAM at<br> Amaravati. My branch is the Electronics and telecommnication in 3rd year!</li>
+                <li><span>HSC  <br>July 2020 - March 2022 <br></span> <br>I am completing my 12th from Shivaji High <br> school Nandgaon (KH).<br></li>
+                
+              </ul>
+
+            </div>
+         </div>
+       </div>
+    </div>
+   </div>
+
+<!-- services -->
+     <!-- <div id="services">
+      <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet,<br> c laborum.ksoksjlsjfojlfsjl </p>
+          </div>
+          <div>
+            <h2>Web Developer</h2> 
+            <p>Lo kdknkhedk dndkhdkbkds loribus?</p>
+          </div>
+          <div>
+            <h2>UI/UX</h2>
+            <p>Lorem ipsum dolor mjsljls <br>jfwakhkl sjkfhkhias skkfk sit um.</p>
+          </div>
+
+
+        </div>
+      </div>
+     </div> -->
+<!-- -------------portfolio-------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-tittle">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/TTTmywork.png" >
+        <div class="layer">
+          <h3>TIC TAC TOE</h3>
+          <p> I developed an tic tac toe game using HTML,CSS & Javascript and I was exited and thrilled to create something new.  </p>
+          <a href="https://github.com/JAYMS07/Tic-tac-toe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+        </div>
+
+      </div>
+      <div class="work">
+        <img src="images/ccmywork.png" >
+        <div class="layer">
+          <h3>CURRANCY CONVERTER</h3>
+          <p> This is Currancy Converter by using HTML,CSS,Javascript.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png" >
+        <div class="layer">
+          <h3>CHAT BOT</h3>
+          <p> make for fun or learning</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+        </div>
+      </div>
+    </div>
+    <a href="#"class="btn">See More</a>
+
+  </div>
+</div>
+<!-- ------contact------ -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-tittle">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>jaysawwalakhe@84120.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>8759644848</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jay-sawwalakhe-1b04aa252/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/JAYMS07"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/JAY04MS?s=09"><i class="fa-brands fa-x-twitter"></i></i></a>
+         
+
+        </div>
+
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class=" btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ jayportfolio. Made with <i class="fas fa-heart"></i> by JAY</p>
+    </div>
+
+  </div>
+ </div>
+
+
+
+<!-- ---------javascript code------- -->
+<script>
+  var tablinks= document.getElementsByClassName("tab-links");
+  var tabcontents= document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  // ----for add this contents in reverse-------
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+<script>
+
+  var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemeu.style.right ="0";
+
+  }
+  function closemenu(){
+    sidemeu.style.right ="-200px";
+
+  }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx_gGPC_gnx7IY00y7ElSw-FQZ6mcMp_vQX-YjQHVs0FQgDmvE2q16HG9J64BL7KHI/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent succesfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },3000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
